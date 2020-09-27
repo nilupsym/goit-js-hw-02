@@ -7,6 +7,7 @@ function checkForSpam(str) {
   if (message.includes("sale") || message.includes("spam")) {
     return true;
   }
+
   return false;
 }
 
